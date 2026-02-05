@@ -1,5 +1,9 @@
 # Football Video Analytics: Detection, Tracking, Team Assignment (YOLO + Tracking + Temporal Smoothing)
 
+<center>
+  <video src="https://github.com/joeshwoa/Football-Video-Analytics/blob/main/final-result_If0OhWcb.mp4" controls title="Final result video from the model" width="400"></video>
+</center>
+
 End-to-end computer vision pipeline that processes football (soccer) match videos to detect and track **players**, **goalkeepers**, **referees**, and the **ball**, then assigns **Team A / Team B** in a match-agnostic way (unsupervised) and exports analytics-ready trajectories.
 
 ## Demo

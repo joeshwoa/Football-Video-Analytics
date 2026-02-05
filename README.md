@@ -4,11 +4,16 @@
   <video src="https://github.com/joeshwoa/Football-Video-Analytics/blob/main/final-result_If0OhWcb.mp4" controls title="Final result video from the model" width="400"></video>
 </center>
 
+
+
 End-to-end computer vision pipeline that processes football (soccer) match videos to detect and track **players**, **goalkeepers**, **referees**, and the **ball**, then assigns **Team A / Team B** in a match-agnostic way (unsupervised) and exports analytics-ready trajectories.
 
 ## Demo
-- Final annotated video output: `final_result.mp4`
-- Output table: `tracks_final.parquet` / `tracks_final.csv` (per-frame detections/tracks with class + team)
+
+[![Final Result Demo](https://github.com/joeshwoa/Football-Video-Analytics/raw/main/final-result_If0OhWcb.gif)](https://github.com/joeshwoa/Football-Video-Analytics/raw/main/final-result_If0OhWcb.mp4)
+
+If the video doesn't open in your browser, download it here:
+- [final-result_If0OhWcb.mp4](https://github.com/joeshwoa/Football-Video-Analytics/raw/main/final-result_If0OhWcb.mp4)
 
 > The pipeline is designed to be used as a foundation for higher-level analytics: team movement analysis, player trajectories, ball trajectory, possession heuristics, heatmaps, and tactical insights.
 
